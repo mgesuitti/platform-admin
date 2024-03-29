@@ -1,0 +1,11 @@
+stages:
+  - triggers
+
+trigger_prod:
+  stage: triggers
+  trigger:
+    include: pipelines/production/.gitlab-ci.yml
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == "master"'
+      when: manual
+      allow_failure: false

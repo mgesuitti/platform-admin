@@ -1,0 +1,21 @@
+.starting {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.paper {
+    padding: 20px;
+    padding-bottom: 1em;
+    background-color: #4cc252 !important;
+    color: white !important;
+    text-align: center;
+}
+
+.paper h3 {
+    margin: 0;
+}
+
+.paper div {
+    font-size: 36px;
+}

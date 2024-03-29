@@ -1,0 +1,9 @@
+stages:
+  - trigger
+
+react:
+  stage: trigger
+  when: manual
+  allow_failure: false
+  trigger:
+    include: pipelines/production/react/.gitlab-ci.yml

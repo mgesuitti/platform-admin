@@ -1,0 +1,12 @@
+.grid {
+    display: flex;
+    align-items: center;   
+}
+.avatar {
+    margin-left: 1rem;
+}
+
+.name {
+    font-style: bold;
+    color: #1976d2;
+}

@@ -1,0 +1,20 @@
+.svg {
+  height: 40px;
+  margin-bottom: 1em;
+}
+
+.eye {
+  transform-origin: 50%;
+  animation: blink 6s infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    transform: scale(1, 0.05);
+  }
+  5%,
+  95% {
+    transform: scale(1, 1);
+  }
+}

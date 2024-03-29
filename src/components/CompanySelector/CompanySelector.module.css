@@ -1,0 +1,12 @@
+.container {
+  margin: 1rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.item:nth-child(odd) {
+  background-color: #f3f3f3;
+}
